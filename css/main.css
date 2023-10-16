@@ -1,0 +1,92 @@
+
+/******************/
+/* Type selectors */
+/******************/
+
+body {
+    background-color: #eee;
+}
+
+h2 {
+    color: orange;
+}
+
+
+/*******************/
+/* Class Selectors */
+/*******************/
+
+.highlight {
+    text-decoration: underline;
+}
+
+.box {
+    background-color: #faa;
+    border: 1px solid black;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+
+
+/****************/
+/* Id Selectors */
+/****************/
+
+#ingredients-list {
+    background-color: lightblue;
+}
+
+
+/**********************/
+/* Multiple selection */
+/**********************/
+
+/* every h1 AND every h2 */
+h1, h2 {
+    font-family: Georgia;
+}
+
+
+
+/***********************/
+/* Combining Selectors */
+/***********************/
+
+/* every h2 that ALSO has the class 'highlight' */
+h2.highlight {
+    font-size: 200%;
+}
+
+
+/***************/
+/* Descendants */
+/***************/
+
+/* every p that is a DESCENDANT of every footer */
+footer p {
+    background-color: green;
+}
+
+
+
+/****************************************/
+/* Some examples of selector precedence */
+/****************************************/
+
+
+#page-title {
+    color: orange;
+}
+
+.main-title {
+    color: green;
+}
+
+
+h1 {
+    color: purple;
+}
+
